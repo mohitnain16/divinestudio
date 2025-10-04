@@ -1,5 +1,6 @@
 {
   "extends": "@react-native/typescript-config",
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["**/node_modules", "**/Pods"]
+  "include": ["**/*.ts", "**/*.tsx", "src/components/CircularProgress.js", "src/logic/useTimer.js"],
+  "exclude": ["**/node_modules", "**/Pods"],
+  
 }
